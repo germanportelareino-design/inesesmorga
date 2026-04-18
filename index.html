@@ -299,22 +299,55 @@ body::after{
    RESPONSIVE
 ================================= */
 
-@media (max-width:900px){
+/* =========================
+   iPad / Tablet
+========================= */
+@media (max-width: 1024px){
 
-#info{
-  width:92vw;
-  left:4vw;
-  top:10px;
-  height:55vh;
-}
+  #info{
+    width:230px;
+    height:82vh;
 
-#controls{
-  width:92vw;
-}
+    left:10px;
+    top:10px;
 
-#controls h1{
-  font-size:38px;
-}
+    padding:16px;
+
+    font-size:14px;
+    line-height:1.45;
+  }
+
+  #miniPopup{
+    max-width:220px;
+    min-width:180px;
+    font-size:13px;
+    padding:12px;
+  }
+
+  #controls{
+    width:320px;
+    padding:28px 20px;
+  }
+
+  #controls h1{
+    font-size:34px;
+  }
+
+  button{
+    padding:10px 16px;
+    font-size:15px;
+  }
+
+    #controls button{
+    padding:8px 12px;
+    font-size:13px;
+    border-radius:10px;
+    max-width:140px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+
 
 }
 </style>
